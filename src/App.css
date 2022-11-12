@@ -1,0 +1,236 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*************************/
+
+
+
+
+
+.form-control{
+	border-radius: 7px;
+	border: 1.5px solid #E3E6ED;
+}
+input.form-control:focus{
+	box-shadow: none;
+	border: 1.5px solid #E3E6ED;
+	background-color: #F7F8FD;
+	letter-spacing: 1px;
+}
+.btn-primary{
+	background-color: #5878FF!important;
+	border-radius: 7px;
+}
+.btn-primary:focus{
+	box-shadow: none;
+}
+.text{
+	font-size: 13px;
+	color: #9CA1A4;
+}
+.price{
+	background: #F5F8FD;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 97px;
+}
+.flex-row{
+	border: 1px solid #F2F2F4;
+	border-radius: 10px; 
+	margin: 0 1px 0;
+}
+.flex-column p{
+	font-size: 14px;
+}
+span.mb-2{
+	font-size: 12px;
+	color: #8896BD;
+}
+h5 span{
+	color: #869099;
+}
+@media screen and (max-width: 450px){
+	.card{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.price{
+		border: none;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+/*****************************/
+
+.search__container {
+  padding-top: 20px;
+}
+
+.search__title {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  color: #000000;
+  transition: color 300ms ease-out;
+  -webkit-transition: color 300ms ease-out;
+  -moz-transition: color 300ms ease-out;
+  -ms-transition: color 300ms ease-out;
+  -o-transition: color 300ms ease-out;
+}
+
+.search__title:hover {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  color: #ff4242;
+  cursor: pointer;
+  
+  
+}
+.imgClass{
+  vertical-align: middle;
+  border-style: none;
+  transition:transform .3s;
+ -webkit-transition:transform .3s;
+ -moz-transition:transform .3s;
+ -ms-transition:transform .3s;
+ -o-transition:transform .3s;
+  
+}
+.imgClass:hover{
+ transform: scale(1.1);
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ -o-transform: scale(1.1);
+
+}
+.search__input {
+  width: 100%;
+  padding: 12px 24px;
+
+  background-color: transparent;
+  transition: transform 250ms ease-in-out;
+  font-size: 14px;
+  line-height: 18px;
+  
+  color: #575756;
+  background-color: transparent;
+/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+  background-position: 95% center;
+  border-radius: 50px;
+  border: 1px solid #575756;
+  transition: all 250ms ease-in-out;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.search__input::placeholder {
+      color: rgba(87, 87, 86, 0.8);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+  }
+
+.search__input:hover,
+  .search__input:focus {
+      padding: 12px 0;
+      outline: 0;
+      border: 1px solid transparent;
+      border-bottom: 1px solid #575756;
+      border-radius: 0;
+      background-position: 100% center;
+  }
+
+.credits__container {
+  margin-top: 24px;
+}
+
+.credits__text {
+  text-align: center;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.credits__link {
+  color: #ff8b88;
+  text-decoration: none;
+  transition: color 250ms ease-in;
+}
+
+.credits__link:hover,
+  .credits__link:focus {
+      color: rgb(191, 137, 135);
+  }
+
+
+  /****************************/
+
+
+  .video-container {
+    margin-top: 5%;
+    position:relative;
+    padding-bottom:56.25%;
+    padding-top:30px;
+    height:0;
+    overflow:hidden;
+  }
+  
+  .video-container iframe, .video-container object, .video-container embed {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+  }
+
+
+
+  /*****************************/
