@@ -18,7 +18,7 @@ const SearchBar = () => {
 
   const fetchData = async () => {
     const { data } = await axios.get(
-      "http://www.furkansipahioglu.somee.com/api/Foods"
+      "https://www.furkansipahioglu.somee.com/api/Foods"
     );
 
     setPosts(data);

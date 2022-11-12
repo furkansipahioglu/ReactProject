@@ -16,7 +16,7 @@ function Recipe() {
   useEffect(() => {
     const fetchDetails = async () => {
       const data = await fetch(
-        `http://www.furkansipahioglu.somee.com/api/Foods/${params.id}`
+        `https://www.furkansipahioglu.somee.com/api/Foods/${params.id}`
       );
 
       const detailData = await data.json();

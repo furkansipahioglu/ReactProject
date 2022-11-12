@@ -18,7 +18,7 @@ function GununYemegi() {
 
   useEffect(() => {
     const fetchDetails = async () => {
-      const data = await fetch(`http://www.furkansipahioglu.somee.com/api/Foods/${2}`);
+      const data = await fetch(`https://www.furkansipahioglu.somee.com/api/Foods/${2}`);
       const detailData = await data.json();
       setDetails(detailData);
     };

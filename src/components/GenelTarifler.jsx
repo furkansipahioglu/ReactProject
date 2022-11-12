@@ -11,7 +11,9 @@ function GenelTarifler() {
   }, []);
 
   const fetchData = async () => {
-    const { data } = await axios.get("http://www.furkansipahioglu.somee.com/api/Foods");
+    const { data } = await axios.get(
+      "https://furkansipahioglu.somee.com/api/Foods"
+    );
 
     setPosts(data);
   };
