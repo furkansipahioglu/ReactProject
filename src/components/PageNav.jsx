@@ -6,9 +6,13 @@ function PageNav() {
     <div>
       <div className="navbar navbar-expand-lg bg-light navbar-light">
         <div className="container-fluid">
+        <Link to="/">
           <a className="navbar-brand">
-            Yemek <span>Tarifleri</span>
+            
+              Yemek <span>Tarifleri</span>
+            
           </a>
+          </Link>
           <button
             type="button"
             className="navbar-toggler"
