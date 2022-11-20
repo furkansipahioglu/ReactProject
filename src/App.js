@@ -23,6 +23,11 @@ import Recipe from "./pages/Recipe";
 import About from "./pages/About";
 import TumYemekler from "./pages/TumYemekler";
 import Scroll from "./components/Scroll";
+import AdminLogin from "./pages/AdminLogin";
+import AdminPanel from "./pages/AdminPanel";
+import AdminDuzenle from "./pages/AdminDuzenle";
+import AdminPanelEkle from "./pages/AdminPanelEkle";
+import AdminRegister from "./pages/AdminRegister";
 
 function App() {
   return (
@@ -41,6 +46,11 @@ function App() {
           <Route exact path="/italy" element={<Italy />} />
           <Route exact path="/searched/:id" element={<Searched />} />
           <Route exact path="/recipe/:id" element={<Recipe />} />
+          <Route exact path="/AdminLogin" element={<AdminLogin />} />
+          <Route exact path="/AdminPanel" element={<AdminPanel />} />
+          <Route exact path="/AdminDuzenle/:id" element={<AdminDuzenle />} />
+          <Route exact path="/AdminPanelEkle" element={<AdminPanelEkle />} />
+          <Route exact path="/AdminRegister" element={<AdminRegister />} />
         </Routes>
       </Router>
     </div>

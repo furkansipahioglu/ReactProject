@@ -13,17 +13,17 @@ function Footer() {
                   <div className="footer-contact">
                     <h2>Addres</h2>
                     <p>
-                      <i className="fa fa-map-marker-alt"></i>123 Street, New York,
-                      USA
+                      <i className="fa fa-map-marker-alt"></i>123 Street, New
+                      York, USA
                     </p>
                     <p>
                       <i className="fa fa-phone-alt"></i>+90 533 967 51 53
                     </p>
                     <p>
-                      <i className="fa fa-envelope"></i>furkansipahioglu@gmail.com
+                      <i className="fa fa-envelope"></i>
+                      furkansipahioglu@gmail.com
                     </p>
                     <div className="footer-social">
-                      
                       <a href="https://www.linkedin.com/in/furkan-sipahioglu/">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
@@ -37,7 +37,8 @@ function Footer() {
                     <Link to={"/anayemek"}>Ana Yemekler</Link>
                     <Link to={"/tatlilar"}>Tatlılar</Link>
                     <Link to={"/about"}>Hakkımızda</Link>
-                    <Link to={"/japan"}>Japon Yemekleri</Link>
+                    <Link to={"/AdminLogin"}>Admin</Link>
+                    <Link to={"/AdminRegister"}>AdminRegister</Link>
                   </div>
                 </div>
               </div>
